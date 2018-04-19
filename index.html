@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CommuterLine Map</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+</head>
+<body>
+
+    
+    <!-- Side menu -->
+    <div id="side-menu">
+        <h1>Commuter Line Map</h1>
+    </div>
+
+
+    <div id="main">
+        <!-- Title bar + hamburger icon -->
+        <div id="menu-bar">
+            <h1>Stations</h1>
+        </div>
+        
+        <!-- The map -->
+        <div id="map">
+        </div>
+    </div>
+
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/knockout-3.2.0.js"></script>
+    <script src="js/app.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing&key=AIzaSyD1qfoQbVZjIuRD49zq8DSR7n4Rv0Uvr1I&v=3&callback=initMap">
+    </script>
+</body>
+</html>

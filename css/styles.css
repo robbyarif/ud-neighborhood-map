@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+body {
+	display: flex;
+}
+
+#main {
+	width: 80%;
+}
+
+#side-menu {
+	width: 20%;
+	border: 5px black solid;
+	height: 100%;
+}
+
+#menu-bar {
+	background-color: black;
+	color: white;
+}
+
+#map {
+    top:60px;
+    bottom:0px;
+    height: 100%;
+    left: 362px;
+    position: absolute;
+    right: 0px;
+  }
+
+
+#side-menu {
+	/*desktop mode*/
+}
+
+#side-menu .collapsed {
+	/*collapsed*/
+}
