@@ -6,24 +6,45 @@
   line-height: 1.6;
 }
 
-body {
+.container {
 	display: flex;
-}
-
-#main {
-	width: 80%;
+  /*width: 100vw;*/
+  min-width: 300px;
+  height: 100vh;
 }
 
 #side-menu {
-	width: 20%;
-	border: 5px black solid;
-	height: 100%;
+  min-width: 250px;
+  max-width: 250px;
+  display: flex;
+  flex-flow:  column;
+  /*width: 20%;*/
+  border: 1px black solid;
+  padding: 10px;
+  transition: all 0.3s;
+  overflow-y: auto;
+  background: beige;
 }
+
+.collapsed {
+  margin-left: -250px;
+}
+
+#main {
+	/*width: 80%;*/
+  border: 1px blue solid;
+  background: lightgrey;
+  padding: 10px;
+}
+
+
+
 
 #menu-bar {
 	background-color: black;
 	color: white;
-}
+  margin: auto;
+}s
 
 #map {
     top:60px;
@@ -33,12 +54,3 @@ body {
     position: absolute;
     right: 0px;
   }
-
-
-#side-menu {
-	/*desktop mode*/
-}
-
-#side-menu .collapsed {
-	/*collapsed*/
-}
