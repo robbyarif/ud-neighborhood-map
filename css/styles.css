@@ -19,7 +19,7 @@
   display: flex;
   flex-flow:  column;
   /*width: 20%;*/
-  border: 1px black solid;
+  /*border: 5px black solid;*/
   padding: 10px;
   transition: all 0.3s;
   overflow-y: auto;
@@ -31,26 +31,23 @@
 }
 
 #main {
-	/*width: 80%;*/
-  border: 1px blue solid;
   background: lightgrey;
-  padding: 10px;
+  height: 100%;
+  flex: 1;
 }
 
-
-
-
-#menu-bar {
+#main-bar {
 	background-color: black;
 	color: white;
-  margin: auto;
-}s
+  width: 100%;
+}
 
 #map {
     top:60px;
     bottom:0px;
     height: 100%;
-    left: 362px;
+    left: 250px;
     position: absolute;
     right: 0px;
+    background-color: azure;
   }
